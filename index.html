@@ -4,64 +4,31 @@
 <head>
     <title>Coming Soon!</title>
     <style>
-        div.background {
-            /*setting alpha = 0.1*/
-            background: url("https://github.com/OpenRobot/.github/raw/main/assets/OpenRobot%20Banner%204.png?raw=true");
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .background {
+            /* The image used */
+            background-image: url("img_girl.jpg");
+
             opacity: 0.6;
+
+            /* Full height */
             height: 100%; 
+
+            /* Center and scale the image nicely */
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
-        }
-        
-        .container_button {
-            height: 200px;
-            position: relative;
-            border: 3px solid green;
-        }
-
-        .center_button {
-            margin: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-        }
-      
-        button {
-            background: transparent;
-            box-shadow: 0px 0px 0px transparent;
-            border: 0px solid transparent;
-            text-shadow: 0px 0px 0px transparent;
-        }
-
-        button:hover {
-            background: transparent;
-            box-shadow: 0px 0px 0px transparent;
-            border: 0px solid transparent;
-            text-shadow: 0px 0px 0px transparent;
-        }
-
-        button:active {
-            outline: none;
-            border: none;
-        }
-
-        button:focus {
-            outline: none;
         }
     </style>
 </head>
 
 <div class="background">
-    <p style="text-align:center">Coming Very Soon</p>
-</div>
-
-<div class="container_button">
-    <div class="center_button">
-        <a href="https://github.com/OpenRobot">
-            <button>GitHub</button>
-        </a>
-    </div>
+    <p style="position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(-50%);">Coming Very Soon!</p>
+    <a href="https://github.com/OpenRobot">
+        <button style="position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(325%);">GitHub</button>
+    </a>
 </div>
