@@ -6,16 +6,17 @@
     <style>
         div.background {
             /*setting alpha = 0.1*/
-            background: rgba(0, 151, 19, 0.3) url("https://github.com/OpenRobot/.github/raw/main/assets/OpenRobot%20Banner%204.png?raw=true");
+            background: url("https://github.com/OpenRobot/.github/raw/main/assets/OpenRobot%20Banner%204.png?raw=true");
+            opacity: 0.6;
         }
         
-        .container {
+        .container_button {
             height: 200px;
             position: relative;
             border: 3px solid green;
         }
 
-        .center {
+        .center_button {
             margin: 0;
             position: absolute;
             top: 50%;
@@ -23,15 +24,19 @@
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
         }
+      
+        button:hover, button:focus {
+            outline: none;
+        }
     </style>
 </head>
 
-<div class="background">
-    <p style="text-align:center">Coming Very Soon</p>
-</div>
+<div class="background"></div>
 
-<div class="container">
-    <div class="center">
+<p style="text-align:center">Coming Very Soon</p>
+
+<div class="container_button">
+    <div class="center_button">
         <a href="https://github.com/OpenRobot">
             <button>GitHub</button>
         </a>
