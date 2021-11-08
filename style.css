@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Fredoka One';
+    background: url("https://github.com/OpenRobot/openrobot.xyz/blob/main/assets/OpenRobot%20Logo%2030%25%20Opacity.png?raw=true");
+    background-size: cover;
+}
+
+nav {
+    background: #38b6ff;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: normal;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-family: monospace;
+    /* text-transform: uppercase; */
+}
+
+.navbar-url {
+    text-decoration: none;
+}
+
+.navbar-url:hover {
+    background: #ffc107;
+    transition: .5s;
+}
+
+.navbar-url:active {
+    background: #ffc107;
+    transition: .5s;
+}
+
+.openrobot-heading {
+    font-size: 50px;
+    font-weight: bold;
+    color: #38b6ff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.openrobot-definition {
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    text-align: center;
+}
+
+.indent-text {
+    text-indent: 20px;
+}
+
+.circular-button {
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bolder;
+}
+
+.circular-button:hover {
+    background: white;
+    color: transparent;
+    transition: .5s;
+}

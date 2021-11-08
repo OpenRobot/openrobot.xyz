@@ -1,55 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
-  
-<meta property="og:title" content="OpenRobot" />
-<meta property="og:site_name" content="OpenRobot" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://openrobot.xyz" />
-<meta property="og:image" content="https://github.com/OpenRobot/openrobot.xyz/blob/main/assets/OpenRobot%20Logo%202.png?raw=true" />
-<meta property="og:description" content="The website for the OpenRobot GitHub Organization." />
-<meta name="theme-color" content="#38B6FF">
-  
 <head>
-    <title>Coming Soon!</title>
+    <title>OpenRobot</title>
     <link rel="shortcut icon" type="image/jpg" href="assets/OpenRobot Logo 2.png"/>
-    <style>
-        body, html {
-            height: 100%;
-            margin: 0;
-            font-family: 'Fredoka One';
-            font-size: 22px;
-        }
 
-        .background {
-            /* The image used */
-            background-image: url("https://github.com/OpenRobot/openrobot.xyz/blob/main/assets/OpenRobot%20Logo%2030%25%20Opacity.png?raw=true");
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="OpenRobot" />
+    <meta property="og:site_name" content="OpenRobot" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://openrobot.xyz" />
+    <meta property="og:image" content="https://github.com/OpenRobot/openrobot.xyz/blob/main/assets/OpenRobot%20Logo%202.png?raw=true" />
+    <meta property="og:description" content="OpenRobot " />
+    <meta name="theme-color" content="#38B6FF">
 
-            /* opacity: 0.3; */
-
-            /* Full height */
-            height: 100%; 
-
-            /* Center and scale the image nicely */
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-      
-        /* button {
-            background-color: #C8E9FF;
-            font-family: 'Fredoka One';
-        } */
-    </style>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Fredoka One'>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.css">
+    <link rel="stylesheet" href="comfortaa.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<div class="background">
-    <br>
-    <h2 style="text-align: center;">OpenRobot</h2>
-</div>
+<body>
+    <nav>
+        <label class="logo">OpenRobot</label>
+        <ul>
+            <li><a href="https://api.openrobot.xyz" class="navbar-url">API</a></li>
+            <li><a href="https://github.opennrobot.xyz" class="navbar-url">GitHub</a></li>
+            <li><a href="https://discord.com/oauth2/authorize?client_id=759591316627128320&scope=bot+applications.commands&permissions=8" class="navbar-url">Discord Bot</a></li>
+        </ul>
+    </nav>
+    <div class="main">
+        <h1 class="openrobot-heading">OpenRobot</h1>
 
-<h2 style="position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(0%);">Coming Very Soon!</h2>
-<a href="https://github.com/OpenRobot" style="position: absolute;top: 50%;left: 50%;transform: translateX(-50%) translateY(450%);font-family: 'Fredoka One';font-size: 15px">
-    Click here to go to our GitHub organization
-</a>
+        <!--
+        <button class="what-is-openrobot" onclick="openrobot_definition()">What Is OpenRobot?</button>
+        <p class="what-is-openrobot-definition"></p>
+
+        <script>
+            function openrobot_definition() {
+                if (document.getElementsByClassName('what-is-openrobot-definition')[0].innerHTML != '<p class="what-is-openrobot-definition"></p>') {
+                    document.getElementsByClassName('what-is-openrobot-definition')[0].innerHTML = '<p class="what-is-openrobot-definition">OpenRobot is a non-profit free organization believing in Open Source and the Future of Robots to this world.</p>'
+                } else {
+                    document.getElementsByClassName('what-is-openrobot-definition')[0].innerHTML = '<p class="what-is-openrobot-definition"></p>'
+                }
+            };
+        </script>
+        -->
+
+        <br>
+        <br>
+        <ul>
+            <p class="openrobot-definition">
+                We are OpenRobot, A non-profit free organization believing in Open Source and the Future of Robots to this world.<br>
+                Basically, we make open-sourced bots for you to check out the code and use it in your own projects!<br>
+                <b><em>(But make sure to follow our licenses when using our code and also credit us if you use a large portion :>)</em></b>
+            </p>
+        </ul>
+
+        <br>
+        <br>
+        <br>
+
+        <h2 style="text-align: center; font-size: 25px;">OpenRobot Developers</h2>
+
+        <br>
+        <br>
+
+        <h3 style="text-align: center; font-size: 20px;">Main Developers:</h3>
+
+        <div class="grid grid-cols-2 gap-4 mx-auto">
+
+            <!-- ProGuy -->
+
+            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="400" class="rounded-sm shadow-lg w-full h-auto aos-init aos-animate inline-block" style="background-color: #1f2129;">
+                <div class="flex flex-col gap-4">
+                    <div banner="" class="overflow-hidden">
+                        <div class="h-32 rounded-t" style="background-color: #1F2129;"></div>
+                    </div>
+                    <div class="relative">
+                        <img src="https://cdn.discordapp.com/avatars/699839134709317642/53f793ee33fdfc46917546d34d6ea9da.png?size=1024" class="absolute -top-20 left-2 w28 md:w-32 h-28 md:h-32" style="border-radius: 50%; border-color: #1f2129; border-width: 6px; background-color: #1f2129;">
+                            <h1 class="absolute -top-4 right-2 text-white font-bold text-lg md:text-2xl">proguy914629#5419</h1>
+                    </div>
+                    <hr class="bg-gray-700 border-gray-700 mx-8 w-auto mt-12">
+                    <p class="text-white font-bold text-center text-lg mt-4 mb-8">
+                        A baby yoda lover :o
+                    </p>
+                    <span>
+                        <p class="text-white font-bold text-center text-lg mt-4 mb-8">
+                            Connections:
+                        </p>
+                        <p class="text-white text-center text-lg mt-4 mb-8">
+                            - <a href="https://github.com/proguy914629bot">GitHub</a>
+                            <br>
+                            - <a href="https://discord.com/users/699839134709317642">Discord</a>
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Whyfai -->
+
+
+            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="400" class="rounded-sm shadow-lg w-full h-auto aos-init aos-animate inline-block" style="background-color: #1f2129;">
+                <div class="flex flex-col gap-4">
+                    <div banner="" class="overflow-hidden">
+                        <div class="h-32 rounded-t" style="background-color: #1F2129;"></div>
+                    </div>
+                    <div class="relative">
+                        <img src="https://cdn.discordapp.com/avatars/621266489596444672/a_370f8d9353811e54e910a514f8f85f9f.gif?size=1024" class="absolute -top-20 left-2 w28 md:w-32 h-28 md:h-32" style="border-radius: 50%; border-color: #1f2129; border-width: 6px; background-color: #1f2129;">
+                            <h1 class="absolute -top-4 right-2 text-white font-bold text-lg md:text-2xl">whyfai#0777</h1>
+                    </div>
+                    <hr class="bg-gray-700 border-gray-700 mx-8 w-auto mt-12">
+                    <p class="text-white font-bold text-center text-lg mt-4 mb-8">
+                        I am an intermediate python programmer (and beginner nodejs and html) coding mainly discord bots.
+                        <br>
+                        I am a baby yoda lover and lego fan.
+                    </p>
+                    <span>
+                        <p class="text-white font-bold text-center text-lg mt-4 mb-8">
+                            Connections:
+                        </p>
+                        <p class="text-white text-center text-lg mt-4 mb-8">
+                            - <a href="https://github.com/whyfai">GitHub</a>
+                            <br>
+                            - <a href="https://discord.com/users/621266489596444672">Discord</a>
+                        </p>
+                    </span>
+                </div>
+            </div>
+        
+        </div>
+
+        <br>
+        <br>
+
+        <h3 style="text-align: center; font-size: 20px;">Other Developers:</h3>
+
+        <div class="grid grid-cols-2 gap-4 mx-auto">
+
+            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="400" class="rounded-sm shadow-lg w-full h-auto aos-init aos-animate inline-block" style="background-color: #1f2129;">
+                <div class="flex flex-col gap-4">
+                    <div banner="" class="overflow-hidden">
+                        <div class="h-32 rounded-t" style="background-color: #1F2129;"></div>
+                    </div>
+                    <div class="relative">
+                        <img src="https://cdn.discordapp.com/avatars/545871803843739659/209abfc9064a20ee6b366340d853bfcc.png?size=1024" class="absolute -top-20 left-2 w28 md:w-32 h-28 md:h-32" style="border-radius: 50%; border-color: #1f2129; border-width: 6px; background-color: #1f2129;">
+                            <h1 class="absolute -top-4 right-2 text-white font-bold text-lg md:text-2xl">Techrosity#6654</h1>
+                    </div>
+                    <hr class="bg-gray-700 border-gray-700 mx-8 w-auto mt-12">
+                    <p class="text-white font-bold text-center text-lg mt-4 mb-8">
+                        they/them
+                    </p>
+                    <span>
+                        <p class="text-white font-bold text-center text-lg mt-4 mb-8">
+                            Connections:
+                        </p>
+                        <p class="text-white text-center text-lg mt-4 mb-8">
+                            - <a href="https://github.com/Techrosity">GitHub</a>
+                            <br>
+                            - <a href="https://discord.com/users/545871803843739659">Discord</a>
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-once="true" data-aos-duration="400" class="rounded-sm shadow-lg w-full h-auto aos-init aos-animate inline-block" style="background-color: #1f2129;">
+                <div class="flex flex-col gap-4">
+                    <div banner="" class="overflow-hidden">
+                        <div class="h-32 rounded-t" style="background-color: #1F2129;"></div>
+                    </div>
+                    <div class="relative">
+                        <img src="https://cdn.discordapp.com/avatars/695501415619231775/6fa5aaf22c33f65028da271e3b18c00a.png?size=1024" class="absolute -top-20 left-2 w28 md:w-32 h-28 md:h-32" style="border-radius: 50%; border-color: #1f2129; border-width: 6px; background-color: #1f2129;">
+                            <h1 class="absolute -top-4 right-2 text-white font-bold text-lg md:text-2xl">orange.xyz#9150</h1>
+                    </div>
+                    <hr class="bg-gray-700 border-gray-700 mx-8 w-auto mt-12">
+                    <p class="text-white font-bold text-center text-lg mt-4 mb-8">
+                        #schoolsucks
+                    </p>
+                    <span>
+                        <p class="text-white font-bold text-center text-lg mt-4 mb-8">
+                            Connections:
+                        </p>
+                        <p class="text-white text-center text-lg mt-4 mb-8">
+                            - <a href="https://github.com/alexiiycx1">GitHub</a>
+                            <br>
+                            - <a href="https://discord.com/users/695501415619231775">Discord</a>
+                        </p>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</body>
