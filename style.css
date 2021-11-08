@@ -7,6 +7,8 @@ body {
     font-family: 'Fredoka One';
     background: url("https://github.com/OpenRobot/openrobot.xyz/blob/main/assets/OpenRobot%20Logo%2030%25%20Opacity.png?raw=true");
     background-size: cover;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 nav {
