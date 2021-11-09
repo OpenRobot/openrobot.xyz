@@ -100,3 +100,8 @@ nav ul li a {
     color: transparent;
     transition: .5s;
 }
+
+#developers-grid {
+    justify-content: space-evenly;
+    justify-items: center;
+}
